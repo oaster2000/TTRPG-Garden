@@ -22,6 +22,7 @@ export default function Home({note, backLinks, fileNames, tree, flattenNodes, gr
     return (
         <Layout>
             <Head>
+                <title>Vibrant Worlds TTRPGs</title>
                 {note.title && <meta name="title" content={note.title}/>}
             </Head>
             <div className='container'>
